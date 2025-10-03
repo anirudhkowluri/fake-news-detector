@@ -1,6 +1,6 @@
 <h1>#steps to run the file:</h1>
 
-git commands:
+<u>git commands:</u>
 
 git clone "https://github.com/anirudhkowluri/fake-news-detector.git"
 
@@ -10,7 +10,8 @@ ls
 
 git status
 
-commands activate the virtual enivornment in terminal and load the streamlit website:
+<h1>#commands activate the virtual enivornment in terminal and load the streamlit website:</h1>
+
 python -m venv .venv
 
 # activate venv (PowerShell(Terminal))
