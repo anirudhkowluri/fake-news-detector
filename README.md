@@ -5,10 +5,10 @@ cd "change the path to the destination file"
 ls
 git status
 
-commands activate the virtual enivornment and load the stream lit website:
+commands activate the virtual enivornment in terminal and load the streamlit website:
 python -m venv .venv
 
-# activate venv (PowerShell)
+# activate venv (PowerShell(Terminal))
 .\.venv\Scripts\Activate.ps1
 
 # (optional) if activation is blocked by execution policy, run:
