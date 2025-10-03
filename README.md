@@ -2,7 +2,7 @@
 
 git commands:
 
-git clone "repository link"
+git clone "https://github.com/anirudhkowluri/fake-news-detector.git"
 
 cd "change the path to the destination file"
 
