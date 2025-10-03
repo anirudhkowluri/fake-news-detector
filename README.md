@@ -1,8 +1,13 @@
-#steps to run the file:
+<h1>#steps to run the file:</h1>
+
 git commands:
+
 git clone "repository link"
+
 cd "change the path to the destination file"
+
 ls
+
 git status
 
 commands activate the virtual enivornment in terminal and load the streamlit website:
