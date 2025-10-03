@@ -1,0 +1,28 @@
+#steps to run the file:
+git commands:
+git clone "repository link"
+cd "change the path to the destination file"
+ls
+git status
+
+commands activate the virtual enivornment and load the stream lit website:
+python -m venv .venv
+
+# activate venv (PowerShell)
+.\.venv\Scripts\Activate.ps1
+
+# (optional) if activation is blocked by execution policy, run:
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+
+# install from requirements.txt
+python -m pip install -r .\requirements.txt
+
+# verify installed packages (brief)
+python -m pip list
+
+# save installed versions
+python -m pip freeze > installed-versions.txt
+
+# run the website
+streamlit run app.py
