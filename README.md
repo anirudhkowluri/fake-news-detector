@@ -34,7 +34,110 @@ python -m pip freeze > installed-versions.txt
 <h2>#Command to run the website</h2>
 streamlit run app.py
 
-<h2>#App.py file code summary</h2>
+<h2>#app.ipynb jupiter notebook code summary</h2>
+
+1. Importing Libraries
+
+The notebook begins by importing all necessary libraries for:
+
+Data manipulation: pandas, numpy
+
+Text processing: re, nltk, string, PorterStemmer, stopwords
+
+Feature extraction: TfidfVectorizer
+
+Modeling & evaluation: train_test_split, LogisticRegression, accuracy_score, confusion_matrix, classification_report
+
+Model saving: joblib
+
+2. Loading the Datasets
+
+Loads two CSV files:
+
+Fake.csv — contains fake news articles
+
+True.csv — contains real news articles
+
+Both are read using pd.read_csv().
+
+3. Data Preparation
+
+Adds a new column class:
+
+0 → Fake news
+
+1 → Real news
+
+Combines both datasets using pd.concat() to form a single dataset named data.
+
+Removes unnecessary columns: title, subject, and date.
+
+Resets and cleans up the DataFrame index.
+
+4. Text Cleaning
+
+Defines a function clean_text(text) that:
+
+Converts text to lowercase
+
+Removes:
+
+Text in brackets ([...])
+
+URLs
+
+HTML tags
+
+Punctuation
+
+Newline characters
+
+Words containing digits
+Applies this function to the text column of the dataset.
+
+5. Splitting the Data
+
+Separates features (X = data['text']) and labels (y = data['class']).
+
+Splits the dataset into training and testing sets using train_test_split() with 25% test data and a random seed of 42.
+
+6. Text Vectorization
+
+Initializes a TF-IDF Vectorizer to convert text into numerical form.
+
+Fits and transforms the training data (xv_train).
+
+Transforms the test data (xv_test).
+
+7. Model Training
+
+Initialize and train a Logistic Regression classifier 
+
+8. Model Evaluation
+
+Predicts the test data using the trained model.
+
+Evaluates performance using:
+
+Accuracy score
+
+Classification report
+
+Confusion matrix
+
+These metrics provide insights into how well the model differentiates between fake and real news.
+
+9. Saving the Model
+
+Saves the trained TF-IDF vectorizer and model to disk using:
+
+joblib.dump(vectorizer, 'vectorizer.jb')
+joblib.dump(model, 'model.jb')
+
+
+These saved files are later used in a Streamlit app for real-time predictions.
+
+<h2>#app.py file code summary</h2>
 <h3>Creating a  Streamlit app interface:</h3>
 
 Import the necessary libraries
