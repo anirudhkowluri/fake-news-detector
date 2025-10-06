@@ -34,7 +34,7 @@ python -m pip freeze > installed-versions.txt
 <h2>#Command to run the website</h2>
 streamlit run app.py
 
-<h2>app.py file code summary</h2>
+<h2>#App.py file code summary</h2>
 <h3>Creating a  Streamlit app interface:</h3>
 
 Import the necessary libraries
