@@ -33,3 +33,20 @@ python -m pip freeze > installed-versions.txt
 
 <h2>#Command to run the website</h2>
 streamlit run app.py
+
+<h2>app.py file code summary</h2>
+<h3>Creating a  Streamlit app interface:</h3>
+
+Import the necessary libraries
+
+Loads a pre-trained text vectorizer and classification model from app.ipynb jupiter notebook.
+
+Lets users input a news article.
+
+When the “Check News” button is clicked:
+
+It vectorizes the text,
+
+Predicts using the model,
+
+Displays whether the news is Real or Fake.
