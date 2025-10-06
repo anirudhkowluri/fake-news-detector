@@ -39,7 +39,7 @@ streamlit run app.py
 
 Import the necessary libraries
 
-Loads a pre-trained text vectorizer and classification model from app.ipynb jupiter notebook.
+Loads a pre-trained text vectorizer and classification model(vectorizer.jb,model.jb files) created in app.ipynb jupiter notebook.
 
 Lets users input a news article.
 
