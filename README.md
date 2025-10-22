@@ -31,6 +31,10 @@ python -m pip list
 <h2>#Save installed versions</h2>
 python -m pip freeze > installed-versions.txt
 
+<h2>#Execute the code files</h2>
+Execute the app.ipynb file first
+Then execute the app.py file
+
 <h2>#Command to run the website</h2>
 streamlit run app.py
 
