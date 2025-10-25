@@ -1,3 +1,5 @@
+<h1>live web demo deployed streamlit app link - https://anirudhkowluri-fake-news-detector-app-nbshmv.streamlit.app/</h1>
+
 <h1>#steps to run the file:</h1>
 
 <p><u>git commands:</u></p>
