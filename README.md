@@ -1,5 +1,10 @@
 <h1>live web demo deployed streamlit app link - https://anirudhkowluri-fake-news-detector-app-nbshmv.streamlit.app/</h1>
-https://github.com/user-attachments/assets/2dc947b3-748d-429f-8610-3f8562a57b9f
+
+
+https://github.com/user-attachments/assets/4c336839-40a8-43cb-8abe-c1838a18b9e0
+
+
+
 
 <h1>#steps to run the file:</h1>
 
