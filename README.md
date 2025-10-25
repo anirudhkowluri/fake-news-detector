@@ -23,12 +23,11 @@ git status
 <h2>#Create the virtual enivironment</h2>
 python -m venv .venv
 
-<h2>#Activate the virtual enivironment(venv) in PowerShell(Terminal)</h2>
-.\.venv\Scripts\Activate.ps1
-
-<h2>#(optional) if activation is blocked by execution policy, run:</h2>
+<h2># run the excecution policy ,if activation is blocked by execution policy, run:</h2>
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
+<h2>#Activate the virtual enivironment(venv) in PowerShell(Terminal)</h2>
+.\.venv\Scripts\Activate.ps1
 
 <h2>#Install  libraries from requirements.txt</h2>
 python -m pip install -r .\requirements.txt
