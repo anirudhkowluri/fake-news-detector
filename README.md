@@ -1,5 +1,6 @@
 <h1>live web demo deployed streamlit app link - https://anirudhkowluri-fake-news-detector-app-nbshmv.streamlit.app/</h1>
 
+
 <h1>#steps to run the file:</h1>
 
 <p><u>git commands:</u></p>
@@ -13,6 +14,10 @@ ls
 git status
 
 <h1>#commands activate the virtual enivornment in terminal and load the streamlit website:</h1>
+
+
+https://github.com/user-attachments/assets/2dc947b3-748d-429f-8610-3f8562a57b9f
+
 
 <h2>#Create the virtual enivironment</h2>
 python -m venv .venv
